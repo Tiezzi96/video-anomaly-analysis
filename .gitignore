@@ -1,0 +1,46 @@
+# Esclude i file nella cartella principale
+/*
+
+# Mantiene accessibili le cartelle
+!/*/
+
+# File da includere nella cartella principale
+!/.gitignore
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/inference.py
+!/inference.ipynb
+
+# Dataset, video e modelli
+/HIVAU-70k/
+/ckpts/
+/MSAD_Dataset/
+/Arrest/
+/Fighting/
+/Robbery/
+/dataset_ground_truth/
+/dataset classificato/
+
+# Output delle pipeline
+/composite_video_output/
+/large_video_evaluation/
+/manual_confusion_matrix/
+
+# Clip temporanee
+/temporary_clips/
+/temporary_clips_large_videos/
+
+# Ambiente locale e impostazioni PyCharm
+/.venv/
+/.idea/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Copie temporanee dei runner
+_runner_*.py
+
+# Archivi ZIP, anche nelle sottocartelle
+*.zip
